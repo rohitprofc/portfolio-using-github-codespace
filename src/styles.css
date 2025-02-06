@@ -138,3 +138,13 @@ img.socialIcon {
     transform: translateX(0);
   }
 }
+
+/* add a slide In Right animation */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

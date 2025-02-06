@@ -21,7 +21,7 @@ import React from "react";
  */
 import image from "../images/computer-desk.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "desktop with computer and tech";
 
 /**
  * Project list
@@ -66,7 +66,7 @@ const Portfolio = () => {
               height: "90%",
               width: "100%",
               objectFit: "cover",
-              animation: "1s ease-out 0s 1 slideInLeft",
+              animation: "1s ease-out 0s 1 slideInRight",
             }}
             alt={imageAltText}
           />
