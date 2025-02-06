@@ -3,10 +3,6 @@
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
-/* add a smooth scroll */
-html {
-  scroll-behavior: smooth;
-}
 
 html,
 body {
@@ -16,6 +12,7 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 div#main {
